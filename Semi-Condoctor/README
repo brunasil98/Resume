@@ -1,0 +1,10 @@
+Hey Dear, 
+
+This is three model I have done in my semiconductor project.
+
+We have pictures from imperfection of a sillicon wafer, 
+I created a CNN model to be able to detected this inperfection.
+
+Model 1 was the first model I did to get in the goal. 
+For second model I changed the mode how the image pass through .fromarray 
+And the third model I added dropout and and increased the numper of epochs. 
