@@ -1,63 +1,18 @@
-                      Dataset: We want to work with the facebook dataset from each of our individual profiles
+   From the first time a user logs into Facebook, the site begins recording information about location, browsing history, reactions to posts, time spent on pages, and much else. “Facebook Engagement Evolution Over the Past Decade” is an investigation into patterns and relationships between age, gender, reactions (likes, comments, and any other interactions between users on posts), time of day, and time spent. To populate our data, we downloaded the information from our own Facebook profiles from the past 10 years (2011-2020). In order to include a different age set than our own, we also acquired the data of Ms. Goncalves’s mother. After cleaning and visualizing the information Facebook collected, we could show that while there was no correlation between age and the time users are online, there is a significant difference with respect to how separate generations react to posts over the years, as in the first half decade the young generation reacted more than older generations while the older generation reacted more in the second half of the decade. Furthermore, genders behave quite differently in how they approach new friends, as females reject and send more friend requests than males,  and photo is the type of post that will generate the most reactions. This data analysis can be used by companies and social media influencers for soliciting better reactions and consequently better results. 
 
-Our Goal: We want to explore what statistic relates to the amount of likes, time a user has spent on the platform, and gender. We are trying to explore which of these areas is most likely going to influence whether and user will have increased traffic to their profile and postings. At the end of our research and after cleaning our dataset, we hope to prove whether or not time, age, or gender have an influence on your presense on facebook. 
+   To be able to plot and view our data set on python, we had to use different types of module libraries available in python such as pandas, matplot and scipy.stats. Pandas is an important mechanism to import csv folders and modulate them as data frames
 
-**This information is solely based on Facebook's social media platform and not others such as Twitter,Instagram,TikTok,etc..
+   This graph demonstrates our hypothesis on which generation uses more reactions throughout the years of 2011 to 2020. The usage of reactions was stronger during the first half of the decade among the younger generation peaking in the year 2015 and then taking a sharp decline in 2016 while the older generation started to becoming more aware of the reaction features. As more users from the older generation started using Facebook, there was a decline of younger users engaging on Facebook and that is represented by 2016 forward.
+![image](https://user-images.githubusercontent.com/75848451/152430827-78fc3c91-fb06-42b8-a678-0178550a2198.png)
 
+   Regarding the time affecting the amount of likes and reviewing the graphs, it was clear that time you post directly correlates to the amount of reactions that you might receive. The higher engagements were between 1PM - 3PM and 10PM - 1AM; these time frames held the highest reaction responses. 
+![image](https://user-images.githubusercontent.com/75848451/152431083-0eb1820e-8445-411d-b9b3-81c720e3f7f3.png)
 
-Current Questions to ask:
-----
-1. Which Generation Reacts more per hour?
-2. Does the time you post effect the amount of likes ?
-3. What type of post gets the most likes?
-4. Which Gender sends the most friend request?
-5. Which Gender rejects the most friend request?
-
-
-Phase 1: Download individual datasets from FB -> https://www.facebook.com/dyi/?referrer=yfi_settings -> Likes_comments / Friends / Reactions
-02/18/21
-----
-Phase 2: Work on cleaning data in alignment with question 02/23/21
-----
- P1. (Create clean columns and remove null values)
-      DataCleaning -> Facebook Plotlib.ipynb (jupyter notebook clean null values removed)
- 
- P2. (Create dataframes of needed columns and remove excess data)
-  
- P3. (Create statistical regression models if time)
-
-Phase 3: Create plotly and matplotlib models 02/25/21
-----  
- P1. Create mini subplots to display cross column data between dataframes
-  
- P2. Establish labels and colors on data on plots
-
- P3 Transition plotly and matplotlib files to powerpoint presentation format (.jpg, .png)
-
-Phase 4: Create Presentation outline and Review Visualizations (split 2:2) 03/02/21
-----
- P1. Create framework/color schemes for data to be put into slide
- 
- P2. Update transitions and icons/pictures to ensure they are properly formatted
- 
- P3. Proof read for errors of spelling and slide transition timings.
-
-Phase 5: Finalize presentation and Practice 03/02/21
-----
-
-
-CONCLUSIONS
-1. Which Generation Reacts more per hour? 
-   The engagement of younger generations is higher according to the amount of reactions. Surprisingly the hours of engagement do not variate between generations. The hours of activity are very similar and behave almost identically. 
-
-2. Does the time you post effect the amount of likes?
-   After reviewing the graph of reacitons against time of the day, it is very clear that the time that you post directly affects the amount of reactions that you might get. With a higher engagement between 1 pm - 3 pm and 10 pm - 1 am. These time slots representing the highest reactions received.
+  For friend request acceptance and rejection among gender we were able to conclude that females have the most friend requests sent to them and also rejected. This may be in relation to the volume differences which is strictly a numbers comparison and no algorithm could be developed for an alternate way to measure this hypothesis.
+![image](https://user-images.githubusercontent.com/75848451/152431167-29192f40-4327-4bb2-936c-ab1ba7915ae2.png)
    
-3. What type of post gets the most likes?
-   After analysisng the scatter graph of posts vs reactions it was very clear that the 'Post' type were the ones getting the most reactions. This category corresponds to status updates of the user. Also, the time that these post were made was affecting directly on the amount of reactions it would get. We can see that the amount of reactions drops significantly when is not at the key hours (1 pm - 3 pm and 10 pm - 1 am).
-   
-4. Which Gender sends the most friend request?
-   Surprisingly the Female Group showed to be the one to have the most friend request sent. We were expecting the opposite before coming up to the result.
-   
-5. Which Gender rejects the most friend request?
-   The Female Group ended up being the one that rejects the most friend requests as well. With a very long difference compared to the Male Group. This could also be  caused because the possibility of receiving more friends requests compared to Male. That would be a factor to consider for future analysis on the subject
+  Lastly the reaction type by posts comparison showcases that links videos and comments are the lowest rated forms of media to be shared on Facebook in comparison to the first ranking being posts then comments and photos. This conclusion is slightly surprising as videos are popularly shared on Facebook feeds consistently however, most new feed posts are not shared unless they are in initial post format. This could be challenged and improved in depth by looking at how many reposts for videos and even photos have alternate titles from users who share them on their own profiles and if that would count as a “post”.
+![image](https://user-images.githubusercontent.com/75848451/152431297-931f1a14-c484-4895-9abc-d22c2c331707.png)
+
+
+  In this project, we showed through graphs our hypothesis in the data set. In our first hypothesis, Generation behavior during the years. The behaviors between generation were complete distinct. While the young generation was more active between the years 2012 and 2016, the older generation was between the years 2016 and 2018. In our second hypothesis, Generational Reacts per hour. The engagement of younger generations is higher according to the amount of reactions, surprisingly the hours of engagement do not vary between generations. In our third hypothesis, Which Gender rejects. The most friend requests, the Female Group ended up being the one that rejects the most friend requests as well. With a very large difference compared to the Male Group. In our finally hypothesis, type of post versus the most likes, after analyzing the scatter graph of posts vs reactions it was very clear that the 'Post' types (corresponding to users’ status updates) were the ones getting the most reactions.
