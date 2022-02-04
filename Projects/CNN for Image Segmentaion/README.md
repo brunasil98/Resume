@@ -6,8 +6,8 @@
   
  ![image](https://user-images.githubusercontent.com/75848451/152475561-8b1f7f5b-ba73-4adb-99db-953bd7efc9b0.png)
 
-  The data was obtained through Dr. Deo’s research. However, the images are low quality and blurry as you can see in the first picture. Thus, it became a big challenge to measure the diameter size of the cells. Due to the research consists of finding a cancer diagnostic through cells diameter.
-
+  The data was obtained from Dr. Deo’s research, which consists of diagnosing cancer by measuring cells' diameters. However, the images are low quality and blurry as seen in the first picture. Thus, it became challenging to measure the diameter of the cells.
+  
  ![image](https://user-images.githubusercontent.com/75848451/152476190-5945cdf6-f24b-42a4-8e31-f88b4e1b2c9a.png)
 
   Another important aspect of this operation was the employment of data augmentation, implemented by applying elastic deformations to the 30 and 51 available training images to create additional images. This is particularly important in biomedicine both because of the aforementioned scarcity of available pictures as well as the resulting accuracy, since it is able to efficiently simulate deformation, which is a common variation in tissue. The model was trained using 100 epochs each containing 10 images, generating a total of 1000 images. Increasing the number of images in each epoch did not lead to better results, likely due to the model overfitting the images because of the data augmentation. 
