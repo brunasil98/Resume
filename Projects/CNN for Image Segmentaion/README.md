@@ -6,7 +6,7 @@
   
  ![image](https://user-images.githubusercontent.com/75848451/152475561-8b1f7f5b-ba73-4adb-99db-953bd7efc9b0.png)
 
-  The data was obtained from Dr. Deo’s research, which consists of diagnosing cancer by measuring cells' diameters. However, the images are low quality and blurry as seen in the first picture. Thus, it became challenging to measure the diameter of the cells.
+  The data was obtained from Dr. Deo’s research, which consists of diagnosing cancer by measuring cells' diameters. However, the images are low quality and blurry as seen in the first picture. Thus, it became challenging to measure the diameter of the cells. So, the goal of this implementaion was providing a mask for each image to highlight the cells, as seen in the second and third picture, 
   
  ![image](https://user-images.githubusercontent.com/75848451/152476190-5945cdf6-f24b-42a4-8e31-f88b4e1b2c9a.png)
 
