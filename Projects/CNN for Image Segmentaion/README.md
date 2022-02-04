@@ -6,7 +6,7 @@
   
  ![image](https://user-images.githubusercontent.com/75848451/152475561-8b1f7f5b-ba73-4adb-99db-953bd7efc9b0.png)
 
-  TThe data was obtained through Dr. Deo’s research. However, the images are low quality and blurry as you can see in the first picture. Thus, it became a big challenge to measure the diameter size of the cells. Due to the research consists of finding a cancer diagnostic through cells diameter.
+  The data was obtained through Dr. Deo’s research. However, the images are low quality and blurry as you can see in the first picture. Thus, it became a big challenge to measure the diameter size of the cells. Due to the research consists of finding a cancer diagnostic through cells diameter.
 
  ![image](https://user-images.githubusercontent.com/75848451/152476190-5945cdf6-f24b-42a4-8e31-f88b4e1b2c9a.png)
 
