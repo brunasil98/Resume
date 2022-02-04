@@ -18,4 +18,4 @@
 
 ![image](https://user-images.githubusercontent.com/75848451/152440373-bd3ffb30-b5f5-4640-bff8-8c40bd7e7f51.png)
 
- In this project, we created models to predict if the person has a heart diseases or not. We use two different approaches, one a linear regression, and second random forest classifier with balanced data.
+ In this project, we created models to predict if the person has a heart diseases or not. We use two different approaches, one a linear regression, and second random forest classifier with balanced data. The second model has a better prediction and smaller error false negative, which is crucial in biomedical field. The next steps would be the analysis of the false negative and try to find any relation between them. 
