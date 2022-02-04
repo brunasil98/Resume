@@ -11,8 +11,7 @@
 
 ![image](https://user-images.githubusercontent.com/75848451/152471608-20d1e98a-e0d7-4a19-ac75-395d7cb1adf9.png)
 
-
-  The model was a simple implemetation of Logist Regression using excel. THe data was collected in each 2 metters of distance. The model predicted the relation between sigal lose and distance.
+  Due to environmental degradation we added procedures to give us more accuracy. First, we took a 10 point data set and removed the high and low outliers, and then averaged the remaining points to get a single point, and we repeated this procedure 10 times. After we got the full 10 points set, we also took out the high and low set with the 8 remaining points and plotted these points in a scatter graph. We created a Logistic Regression model using excel to find a relation between meters and signal loss. 
   
 ![image](https://user-images.githubusercontent.com/75848451/152471989-5b7da8f0-dbfb-4940-b408-7c9d9bd9815b.png)
 
@@ -20,4 +19,4 @@
   
 ![image](https://user-images.githubusercontent.com/75848451/152472106-4ae01d49-8cbd-4c6c-9987-4ba4ed65b477.png)
 
-  It is crucial for its implementation and operation to consider the productivity and characterization of LoRa technology in indoor buildings. In this project, we have presented a comprehensive study how to utilize and predict LoRa in an indoor environment. It was a complete challenge to work in a project by using a new technology we had not utilized before. Looking at the results and after performing experiments testing the model, we realized that a perfect distance measurement is a tough task, and a challenge to predict a difference between 2 meters. When it comes to communication, it generally occurs in arbitrary conditions. This leads us to the fact that the model should be taken as a reference but not as a 100% accurate product. The findings presented in this paper can provide highlights into practical LoRa-based indoor applications.
+  It is crucial for its implementation and operation to consider the productivity and characterization of LoRa technology in indoor buildings. In this project, we have presented a comprehensive study how to utilize and predict LoRa in an indoor environment. It was a complete challenge to work in a project by using a new technology we had not utilized before. Looking at the results and after performing experiments testing the model, we realized that a perfect distance measurement is a tough task. When it comes to communication, it generally occurs in arbitrary conditions. This leads us to the fact that the model should be taken as a reference but not as a 100% accurate product. The findings presented in this paper can provide highlights into practical LoRa-based indoor applications.
