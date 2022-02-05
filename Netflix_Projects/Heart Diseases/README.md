@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/75848451/152437074-09b7a1eb-c9cf-49a1-be85-a364a3d4062a.png)
 
-  The data has a bad distribution, while the first half of the rows was positive target, the other half was no target. 
+  The data has a bad distribution, while the first half of the rows was positive diseases, the other half was no diseases. 
 
 ![image](https://user-images.githubusercontent.com/75848451/152438399-da6810c5-dc60-495a-b4f8-e9220d152f1b.png)
 
