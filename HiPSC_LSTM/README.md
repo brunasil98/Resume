@@ -1,4 +1,3 @@
 # Resume
-Hello!
-Here are some project I have done during the past years. 
-I hope you enjoy!
+
+This project used a LSTM model to simulate Cardic Eletrophysiology using a synthetically 
