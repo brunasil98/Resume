@@ -11,7 +11,7 @@
 ![image](https://user-images.githubusercontent.com/75848451/152431083-0eb1820e-8445-411d-b9b3-81c720e3f7f3.png)
 
    For friend request acceptance and rejection among gender we were able to conclude that females have the most friend requests sent to them and also rejected. This may be in relation to the volume differences which is strictly a numbers comparison and no algorithm could be developed for an alternate way to measure this hypothesis.
-![image](https://user-images.githubusercontent.com/75848451/152431167-29192f40-4327-4bb2-936c-ab1ba7915ae2.png)
+![image](https://user-images.githubusercontent.com/75848451/152654324-a900b1d4-6756-4cd4-9bf8-b97f0db0f496.png)
    
    Lastly the reaction type by posts comparison showcases that links videos and comments are the lowest rated forms of media to be shared on Facebook in comparison to the first ranking being posts then comments and photos. This conclusion is slightly surprising as videos are popularly shared on Facebook feeds consistently however, most new feed posts are not shared unless they are in initial post format. This could be challenged and improved in depth by looking at how many reposts for videos and even photos have alternate titles from users who share them on their own profiles and if that would count as a “post”.
 ![image](https://user-images.githubusercontent.com/75848451/152431297-931f1a14-c484-4895-9abc-d22c2c331707.png)
