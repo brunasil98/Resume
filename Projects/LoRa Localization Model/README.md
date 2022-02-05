@@ -5,7 +5,7 @@
   
 ![image](https://user-images.githubusercontent.com/75848451/152470563-a9249107-9ed8-4a67-be20-d2fda14682b8.png)
   
-  First, we set up a Server/Client network between the gateway and end-node to ensure that a two-way communication happens. Both equipment was setting up in the same frequency (868 MHz) via Arduino Software. After connected, they sent signals back and forward between each other, for collection of data. The end-node was assembled in each 2 meters of the apartment until got at 12 meters. 
+  First, we set up a Server/Client network between the gateway and end-node to ensure that a two-way communication happens. Both equipment was setting up in the same frequency (868 MHz) via Arduino Software. After connected, they sent signals back and forward between them, which were how we collected data. The end-node was assembled in each 2 meters of the apartment until got at 12 meters. 
   
 ![image](https://user-images.githubusercontent.com/75848451/152471446-9d7e0162-a00a-42af-a59a-9d70112a557c.png)
 
